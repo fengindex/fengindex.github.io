@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Document</title>
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/object.css" />
+  </head>
+  <body>
+  <!-- xs (768)  sm  (992)  md  (1200)  lg -->
+  <section class="header">
+    <div class="container-fluid" style="max-width: 1300px;">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+              <img src="./image/logo.svg" alt="" />
+            </a>
+
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  Dropdown
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">About Page</a>
+                  <a class="dropdown-item" href="#">Pricing Page</a>
+                  <a class="dropdown-item" href="#">Contact Page</a>
+                  <a class="dropdown-item" href="#">Blog Grid Page</a>
+                  <a class="dropdown-item" href="#">Blog Details Page</a>
+                  <a class="dropdown-item" href="#">Sign In Page</a>
+                  <a class="dropdown-item" href="#">404 Page</a>
+                </div>
+              </li>
+            </ul>
+            <div class="navbar-btn">
+              <a href="javascript:void(0)" class="ud-main-btn login-btn"> Sign In </a>
+              <a href="javascript:void(0)" class="ud-main-btn white-btn"> Sign Up </a>
+            </div>
+            <span class="navbar-toggler-icon"></span>
+
+            <ul class="list">
+              <li class="item">
+                <a class="nav-link" href="#"> Home</a>
+              </li>
+              <li class="item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  Dropdown
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">About Page</a>
+                  <a class="dropdown-item" href="#">Pricing Page</a>
+                  <a class="dropdown-item" href="#">Contact Page</a>
+                  <a class="dropdown-item" href="#">Blog Grid Page</a>
+                  <a class="dropdown-item" href="#">Blog Details Page</a>
+                  <a class="dropdown-item" href="#">Sign In Page</a>
+                  <a class="dropdown-item" href="#">404 Page</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 展示图 -->
+  <section class="ud-hero">
+    <div class="container-fluid" style="max-width: 1300px;">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-hero-content">
+            <h1>Open-Source Web Template for SaaS, Startup, Apps, and More</h1>
+            <p>
+              Multidisciplinary Web Template Built with Your Favourite
+              Technology - HTML Bootstrap, Tailwind and React NextJS.
+            </p>
+            <ul>
+              <li>
+                <a href="#" class="ud-main-btn ud-white-btn"> Download Now </a>
+              </li>
+              <li>
+                <a href="#" class="ud-main-btn ud-link-btn">
+                  Learn More
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="ud-hero-brank">
+            <img src="./image/brand.svg" alt="" />
+          </div>
+          <div class="ud-hero-img">
+            <img src="./image/hero-image.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 卡片 -->
+  <section class="ud-features">
+    <div class="container-fluid" style="max-width: 1300px;">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-features-title">
+            <span>Features</span>
+            <h2>Main Features of Play</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available but
+              the majority have suffered alteration in some form.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-sm-6">
+          <div class="ud-feature-single">
+            <div class="ud-feature-icon">
+              <i class="bi bi-gift"></i>
+            </div>
+            <div class="ud-feature-content">
+              <h3>Free and Open-Source</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and industry.
+              </p>
+              <a href="javascript:void(0)" class="ud-feature-link">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-6">
+          <div class="ud-feature-single">
+            <div class="ud-feature-icon">
+              <i class="bi bi-arrows-move"></i>
+            </div>
+            <div class="ud-feature-content">
+              <h3>Free and Open-Source</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and industry.
+              </p>
+              <a href="javascript:void(0)" class="ud-feature-link">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-6">
+          <div class="ud-feature-single">
+            <div class="ud-feature-icon">
+              <i class="bi bi-columns"></i>
+            </div>
+            <div class="ud-feature-content">
+              <h3>Free and Open-Source</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and industry.
+              </p>
+              <a href="javascript:void(0)" class="ud-feature-link">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-6">
+          <div class="ud-feature-single">
+            <div class="ud-feature-icon">
+              <i class="bi bi-stack"></i>
+            </div>
+            <div class="ud-feature-content">
+              <h3>Free and Open-Source</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and industry.
+              </p>
+              <a href="javascript:void(0)" class="ud-feature-link">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 信息 -->
+  <section class="ud-about">
+    <div class="container-fluid" style="max-width: 1300px;">
+      <div class="ud-about-wrapper">
+        <div class="ud-about-contant-wrapper">
+          <div class="ud-about-contant">
+            <span class="tag">About Us</span>
+            <h2>Brilliant Toolkit to Build Nextgen Website Faster.</h2>
+            <p>
+              The main ‘thrust’ is to focus on educating attendees on how to
+              best protect highly vulnerable business applications with
+              interactive panel discussions and roundtables led by subject
+              matter experts.
+            </p>
+            <p>
+              The main ‘thrust’ is to focus on educating attendees on how to
+              best protect highly vulnerable business applications with
+              interactive panel.
+            </p>
+            <a href="javascript:void(0)" class="ud-main-btn">Learn More</a>
+          </div>
+        </div>
+        <div class="ud-about-img">
+          <img src="./image/about-image.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 卡片-钱 -->
+  <section class="ud-pricing">
+    <div class="container-fluid" style="max-width: 1300px;">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-section-title mx-auto text-center">
+            <span>Pricing</span>
+            <h2>Our Pricing Plans</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available but
+              the majority have suffered alteration in some form.
+            </p>
+          </div>
+        </div>
+      </div> 
+      <div class="row mycard">
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="first-item">
+            <div class="head">
+              <h3>STARTING FROM</h3>
+              <h4>$ 19.99/mo</h4>
+            </div>
+            <div class="contont">
+              <ul>
+                <li>5 User</li>
+                <li>All UI components</li>
+                <li>Lifetime access</li>
+                <li>Free updates</li>
+                <li>Use on 1 (one) project</li>
+                <li>4 Months support</li>
+              </ul>
+            </div>
+            <div class="foot">
+              <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
+                Purchase Now
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="active">
+            <span class="tag">POPULAR</span>
+            <div class="head">
+              <h3>STARTING FROM</h3>
+              <h4>$ 30.99/mo</h4>
+            </div>
+            <div class="contont">
+              <ul>
+                <li>5 User</li>
+                <li>All UI components</li>
+                <li>Lifetime access</li>
+                <li>Free updates</li>
+                <li>Use on 1 (one) project</li>
+                <li>4 Months support</li>
+              </ul>
+            </div>
+            <div class="foot">
+              <a href="javascript:void(0)" class="ud-main-btn ud-white-btn">
+                Purchase Now
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="last-item">
+            <div class="head">
+              <h3>STARTING FROM</h3>
+              <h4>$ 70.99/mo</h4>
+            </div>
+            <div class="contont">
+              <ul>
+                <li>5 User</li>
+                <li>All UI components</li>
+                <li>Lifetime access</li>
+                <li>Free updates</li>
+                <li>Use on 1 (one) project</li>
+                <li>4 Months support</li>
+              </ul>
+            </div>
+            <div class="foot">
+              <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
+                Purchase Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- faq -->
+  <section class="ud-faq">
+    <div class="shape">
+      <img src="./image/shape.svg" alt="shape">
+    </div>
+    <div class="container-fluid" style="max-width: 1300px;">
+      <div class="row">
+        <div class="col-12">
+          <div class="ud-section-title text-center mx-auto">
+            <span>FAQ</span>
+            <h2>Any Questions? Answered</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available but
+              the majority have suffered alteration in some form.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="ud-single-faq">
+            <div class="accordion">
+              <button class="ud-faq-btn">
+                <span class="icon">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+                <span>How to use Templates?</span>
+              </button>
+              <div class="ud-faq-body">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </div>
+            </div>
+          </div>
+          <div class="ud-single-faq">
+            <div class="accordion">
+              <button class="ud-faq-btn">
+                <span class="icon">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+                <span>How to use Templates?</span>
+              </button>
+              <div class="ud-faq-body">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </div>
+            </div>
+          </div>
+          <div class="ud-single-faq">
+            <div class="accordion">
+              <button class="ud-faq-btn">
+                <span class="icon">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+                <span>How to use Templates?</span>
+              </button>
+              <div class="ud-faq-body">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="ud-single-faq">
+            <div class="accordion">
+              <button class="ud-faq-btn">
+                <span class="icon">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+                <span>How to use Templates?</span>
+              </button>
+              <div class="ud-faq-body">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </div>
+            </div>
+          </div>
+          <div class="ud-single-faq">
+            <div class="accordion">
+              <button class="ud-faq-btn">
+                <span class="icon">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+                <span>How to use Templates?</span>
+              </button>
+              <div class="ud-faq-body">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </div>
+            </div>
+          </div>
+          <div class="ud-single-faq">
+            <div class="accordion">
+              <button class="ud-faq-btn">
+                <span class="icon">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+                <span>How to use Templates?</span>
+              </button>
+              <div class="ud-faq-body">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 星星 -->
+  <section class="ud-testimonials">
+    <div class="container-fluid" style="max-width: 1300px;">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-section-title mx-auto text-center">
+              <span>Testimonials</span>
+              <h2>What our Customers Says</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+              <div class="test">
+                  <div class="head">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="content">
+                    <p>
+                      “Our members are so impressed. It's intuitive. It's clean.
+                      It's distraction free. If you're building a community.
+                    </p>
+                  </div>
+                  <div class="info">
+                    <div class="image">
+                      <img src="./image/author-01.png" alt="">
+                    </div>
+                    <div class="meta">
+                      <h4>Sabo Masties</h4>
+                      <p>Founder @Templates</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="test">
+              <div class="head">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <div class="content">
+                <p>
+                  “Our members are so impressed. It's intuitive. It's clean.
+                  It's distraction free. If you're building a community.
+                </p>
+              </div>
+              <div class="info">
+                <div class="image">
+                  <img src="./image/author-01.png" alt="">
+                </div>
+                <div class="meta">
+                  <h4>Sabo Masties</h4>
+                  <p>Founder @Templates</p>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="test">
+              <div class="head">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <div class="content">
+                <p>
+                  “Our members are so impressed. It's intuitive. It's clean.
+                  It's distraction free. If you're building a community.
+                </p>
+              </div>
+              <div class="info">
+                <div class="image">
+                  <img src="./image/author-01.png" alt="">
+                </div>
+                <div class="meta">
+                  <h4>Sabo Masties</h4>
+                  <p>Founder @Templates</p>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="brands">
+              <div class="ud-title">
+                <h6>Trusted and Used by</h6>
+              </div>
+              <div class="brands-logo">
+                    <div class="logo">
+                      <img src="./image/ayroui.svg" alt="">
+                    </div>
+                    <div class="logo">
+                      <img src="./image/uideck.svg" alt="">
+                    </div>
+                    <div class="logo">
+                      <img src="./image/graygrids.svg" alt="">
+                    </div>
+                    <div class="logo">
+                      <img src="./image/lineicons.svg" alt="">
+                    </div>
+                    <div class="logo">
+                      <img src="./image/ecommerce-html.svg" alt="">
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- 人物 -->
+  <section class="ud-team">
+    <div class="container-fluid" style="max-width: 1300px;">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title mx-auto text-center">
+              <span>Our Team</span>
+              <h2>Meet The Team</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-sm 6">
+                <div class="ud-single-team">
+                      <div class="team-img">
+                        <div class="image">
+                          <img src="./image/team-01.png" alt="">
+                        </div>
+                        <img src="./image/dotted-shape.svg" alt="" class="dotted-shape">
+                        <img src="./image/shape-2.svg" alt="" class="shape-2">
+                      </div>
+                      <div class="team-info">
+                        <h5>Adveen Desuza</h5>
+                        <h6>UI Designer</h6>
+                      </div>
+                      <ul class="team-icon">
+                        <li><i class="bi bi-facebook"></i></li>
+                        <li><i class="bi bi-twitter"></i></li>
+                        <li><i class="bi bi-instagram"></i></li>
+                      </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-sm 6">
+              <div class="ud-single-team">
+                    <div class="team-img">
+                      <div class="image">
+                        <img src="./image/team-01.png" alt="">
+                      </div>
+                      <img src="./image/dotted-shape.svg" alt="" class="dotted-shape">
+                      <img src="./image/shape-2.svg" alt="" class="shape-2">
+                    </div>
+                    <div class="team-info">
+                      <h5>Adveen Desuza</h5>
+                      <h6>UI Designer</h6>
+                    </div>
+                    <ul class="team-icon">
+                      <li><i class="bi bi-facebook"></i></li>
+                      <li><i class="bi bi-twitter"></i></li>
+                      <li><i class="bi bi-instagram"></i></li>
+                    </ul>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm 6">
+            <div class="ud-single-team">
+                  <div class="team-img">
+                    <div class="image">
+                      <img src="./image/team-01.png" alt="">
+                    </div>
+                    <img src="./image/dotted-shape.svg" alt="" class="dotted-shape">
+                    <img src="./image/shape-2.svg" alt="" class="shape-2">
+                  </div>
+                  <div class="team-info">
+                    <h5>Adveen Desuza</h5>
+                    <h6>UI Designer</h6>
+                  </div>
+                  <ul class="team-icon">
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-twitter"></i></li>
+                    <li><i class="bi bi-instagram"></i></li>
+                  </ul>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm 6">
+          <div class="ud-single-team">
+                <div class="team-img">
+                  <div class="image">
+                    <img src="./image/team-01.png" alt="">
+                  </div>
+                  <img src="./image/dotted-shape.svg" alt="" class="dotted-shape">
+                  <img src="./image/shape-2.svg" alt="" class="shape-2">
+                </div>
+                <div class="team-info">
+                  <h5>Adveen Desuza</h5>
+                  <h6>UI Designer</h6>
+                </div>
+                <ul class="team-icon">
+                  <li><i class="bi bi-facebook"></i></li>
+                  <li><i class="bi bi-twitter"></i></li>
+                  <li><i class="bi bi-instagram"></i></li>
+                </ul>
+          </div>
+      </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- 书信 -->
+  <section class="ud-contant">
+    <div class="container-fluid" style="max-width: 1300px;">
+        <div class="row">
+            <div class="col-xl-8 col-lg-7">
+                <div class="ud-contant-wapper">
+                    <div class="ud-contant-title">
+                      <span>CONTACT US</span>
+                      <h2>
+                        Let’s talk about <br>
+                        Love to hear from you!
+                      </h2>
+                    </div>
+                    <div class="ud-contant-info">
+                        <div class="ud-single-info">
+                            <div class="ud-info-icon">
+                              <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="ud-info-meta">
+                              <h5>Our Location</h5>
+                              <p>401 Broadway, 24th Floor, Orchard Cloud View, London</p>
+                            </div>
+                        </div>
+                        <div class="ud-single-info">
+                          <div class="ud-info-icon">
+                            <i class="bi bi-envelope"></i>
+                          </div>
+                          <div class="ud-info-meta">
+                            <h5>How Can We Help?</h5>
+                            <p>info@yourdomain.com</p>
+                            <p>contact@yourdomain.com</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-5">
+              <div class="ud-contant-email">
+                <h4>Send us a Message</h4>
+                <form class="ud-contact-form">
+                  <div class="ud-form-group">
+                    <label for="fullName">Full Name*</label>
+                    <input type="text" name="fullName" placeholder="Adam Gelius">
+                  </div>
+                  <div class="ud-form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" placeholder="example@yourmail.com">
+                  </div>
+                  <div class="ud-form-group">
+                    <label for="phone">Phone*</label>
+                    <input type="text" name="phone" placeholder="+885 1254 5211 552">
+                  </div>
+                  <div class="ud-form-group">
+                    <label for="message">Message*</label>
+                    <textarea name="message" rows="1" placeholder="type your message here"></textarea>
+                  </div>
+                  <div class="ud-form-group mb-0">
+                    <button type="submit" class="ud-main-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- 末尾 -->
+  <section class="ud-foot">
+    <div class="container-fluid" style="max-width: 1300px;">
+          <div class="row">
+              <div class="col-xl-3 col-lg-4 colmd-6">
+                <div class="ud-weight">
+                    <a href="#" class="ud-foot-logo">
+                      <img src="./image/logo.svg" alt="">
+                    </a>
+                    <p>We create digital experiences for 
+                      brands and companies by using technology.</p>
+                    <div class="ud-foot-icon">
+                      <i class="bi bi-facebook"></i>
+                      <i class="bi bi-twitter"></i>
+                      <i class="bi bi-instagram"></i>
+                      <i class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 colmd-6 col-sm-6">
+                  <div class="ud-weight">
+                      <h5>About Us</h5>
+                      <ul class="ud-widget-links">
+                        <li>Home</li>
+                        <li>Features</li>
+                        <li>About</li>
+                        <li>Testimonial</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 colmd-6 col-sm-6">
+                <div class="ud-weight">
+                  <h5>Features</h5>
+                  <ul class="ud-widget-links">
+                    <li>How it works</li>
+                    <li>Privacy policy</li>
+                    <li>Terms of service</li>
+                    <li>Refund policy</li>
+                  </ul>
+              </div>
+              </div>
+              <div class="col-xl-2 col-lg-4 colmd-6 col-sm-6">
+                <div class="ud-weight">
+                  <h5>Our Products</h5>
+                  <ul class="ud-widget-links">
+                    <li>Lineicons</li>
+                    <li>Ecommerce HTML</li>
+                    <li>Ayro UI</li>
+                    <li>Plain Admin</li>
+                  </ul>
+              </div>
+              </div>
+              <div class="col-xl-3 col-lg-6 colmd-8 col-sm-10">
+                  <div class="ud-weight">
+                      <h5>Partners</h5>
+                      <ul class="ud-widget-brands">
+                          <li><img src="./image/ayroui (1).svg" alt=""></li>
+                          <li><img src="./image/ecommerce-html (1).svg" alt=""></li>
+                          <li><img src="./image/graygrids (1).svg" alt=""></li>
+                          <li><img src="./image/lineicons (1).svg" alt=""></li>
+                          <li><img src="./image/uideck (1).svg" alt=""></li>
+                          <li><img src="./image/tailwindtemplates.svg" alt=""></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <ul class="ud-foot-bottom">
+                <li>Privacy policy</li>
+                <li>Support policy</li>
+                <li>Terms of service</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+  </section>
+
+
+      <!-- jQuery and JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      <script src="./js/jquery.min.js"></script>
+    <script src="./js/object.js"></script>
+  </body>
+</html>
